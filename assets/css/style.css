@@ -1,0 +1,55 @@
+a
+{
+    color: white;
+}
+
+body
+{
+    background-color: #6c757d
+}
+
+.navbar-brand
+{
+    background-color: #59a9a4;
+}
+
+.navbar-nav
+{
+    height: 40px;
+}
+
+.container
+{
+    border: 20px;
+    margin: 20px;
+}
+
+/* Screen settings - 640px width */
+@media screen and (max-width: 640px)
+{
+    img 
+    {
+            width: 400px;
+            height: 400px;
+    }
+}
+
+/* Screen settings - 768px width */
+@media screen and (max-width: 980px) and (min-width: 640px)
+{
+    img 
+    {
+            width: 300px;
+            height: 300px;
+    }
+}
+
+/* Screen settings - 980px width */
+@media screen and (min-width: 980px)
+{
+    img
+    {
+            width: 200px;
+            height: 200px;
+    }
+}
