@@ -1,33 +1,63 @@
-a
-{
-    color: white;
-}
-
+/* body settings */
 body
 {
     background-color: #6c757d
 }
 
+/* Button settings */
+.btn
+{
+    width: 90px;
+    background-color: #59a9a4;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* .navbar settings */
+.navbar
+{
+    height: 70px;
+}
+
+/* .navbar-brand settings */
 .navbar-brand
 {
+    top: 0px;
     background-color: #59a9a4;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 5px;
 }
 
-.navbar-nav
-{
-    height: 40px;
-}
-
+/* .container settings */
 .container
 {
     border: 20px;
     margin: 20px;
 }
 
+/* .card settings */
+.card
+{
+    width: 768px;
+}
+
+/* Set message box height */
+#input3
+{
+    height: 400px;
+}
+
 /* Screen settings - 640px width */
 @media screen and (max-width: 640px)
-{
-    img 
+{    
+    .card
+    {
+        width: 640px;
+    }
+
+    .aboutMe
     {
             width: 400px;
             height: 400px;
@@ -37,7 +67,7 @@ body
 /* Screen settings - 768px width */
 @media screen and (max-width: 980px) and (min-width: 640px)
 {
-    img 
+    .aboutMe
     {
             width: 300px;
             height: 300px;
@@ -47,7 +77,7 @@ body
 /* Screen settings - 980px width */
 @media screen and (min-width: 980px)
 {
-    img
+    .aboutMe
     {
             width: 200px;
             height: 200px;
