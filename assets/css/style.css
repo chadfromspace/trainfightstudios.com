@@ -13,21 +13,12 @@ body
     margin-left: 20px;
 }
 
-/* .navbar settings */
-.navbar
+/* card-header settings */
+.card-header
 {
-    height: 70px;
-}
-
-/* .navbar-brand settings */
-.navbar-brand
-{
-    top: 0px;
-    background-color: #59a9a4;
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 5px;
+    color: #59a9a4;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* .container settings */
@@ -49,8 +40,34 @@ body
     height: 400px;
 }
 
-/* Screen settings - 640px width */
-@media screen and (max-width: 640px)
+/* .navbar settings */
+.navbar
+{
+    height: 70px;
+}
+
+/* .navbar-brand settings */
+.navbar-brand
+{
+    top: 0px;
+    background-color: #59a9a4;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 5px;
+}
+
+/* Screen settings below 640px */
+@media screen and (min-width: 0px)
+{    
+    .card
+    {
+        width: 640px;
+    }
+}
+
+/* Screen settings between 640px and 768px */
+@media screen and (max-width: 768px) and (min-width: 640px)
 {    
     .card
     {
@@ -64,8 +81,8 @@ body
     }
 }
 
-/* Screen settings - 768px width */
-@media screen and (max-width: 980px) and (min-width: 640px)
+/* Screen settings between 768px and 980px */
+@media screen and (max-width: 980px) and (min-width: 768px)
 {
     .aboutMe
     {
@@ -74,7 +91,7 @@ body
     }
 }
 
-/* Screen settings - 980px width */
+/* Screen settings greater than 980px */
 @media screen and (min-width: 980px)
 {
     .aboutMe
