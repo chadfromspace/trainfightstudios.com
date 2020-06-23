@@ -1,14 +1,19 @@
+.aboutMe{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /* body settings */
 body
 {
-    background-color: #6c757d
+    background-color: rgb(27, 80, 129);
 }
 
 /* Button settings */
 .btn
 {
     width: 90px;
-    background-color: #59a9a4;
+    background-color: rgb(27, 80, 129);
     margin-bottom: 20px;
     margin-left: 20px;
 }
@@ -24,14 +29,18 @@ body
 /* .container settings */
 .container
 {
-    border: 20px;
-    margin: 20px;
+    padding-top: 40px;
 }
 
 /* .card settings */
 .card
 {
     width: 768px;
+    
+}
+
+.cardRow{
+    display: flex;
 }
 
 /* Set message box height */
@@ -43,60 +52,18 @@ body
 /* .navbar settings */
 .navbar
 {
-    height: 70px;
+    color: rgb(20, 58, 94);
 }
 
 /* .navbar-brand settings */
 .navbar-brand
 {
-    top: 0px;
     background-color: #59a9a4;
-    padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
     margin-left: 5px;
 }
 
-/* Screen settings below 640px */
-@media screen and (min-width: 0px)
-{    
-    .card
-    {
-        width: 640px;
-    }
-}
-
-/* Screen settings between 640px and 768px */
-@media screen and (max-width: 768px) and (min-width: 640px)
-{    
-    .card
-    {
-        width: 640px;
-    }
-
-    .aboutMe
-    {
-            width: 400px;
-            height: 400px;
-    }
-}
-
-/* Screen settings between 768px and 980px */
-@media screen and (max-width: 980px) and (min-width: 768px)
-{
-    .aboutMe
-    {
-            width: 300px;
-            height: 300px;
-    }
-}
-
-/* Screen settings greater than 980px */
-@media screen and (min-width: 980px)
-{
-    .aboutMe
-    {
-            width: 200px;
-            height: 200px;
-    }
+.pages{
+    display: block ruby;
 }
