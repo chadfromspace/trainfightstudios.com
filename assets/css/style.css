@@ -50,15 +50,14 @@ body
 }
 
 /* .navbar settings */
-.navbar
+navbar
 {
-    color: rgb(20, 58, 94);
+    background-color: 0c70cd;
 }
 
 /* .navbar-brand settings */
 .navbar-brand
 {
-    background-color: #59a9a4;
     padding-left: 30px;
     padding-right: 30px;
     margin-left: 5px;
@@ -66,4 +65,9 @@ body
 
 .pages{
     display: block ruby;
+    color: white;
+}
+
+.titleText{
+    color: black;
 }
