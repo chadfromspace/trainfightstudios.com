@@ -62,9 +62,16 @@ footer{
     justify-content: center;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
 h5{
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 html, body{
