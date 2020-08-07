@@ -14,11 +14,11 @@ class Project extends Component {
   render() {
     return (
       <div className="row content">
-        <div className="col-6 mt-4">
+        <div className="col-6 mt-2 mb-2">
             <Card className="text-center projectCard" key={this.props.id}>
               <Card.Header>{this.props.name}</Card.Header>
               <Card.Body>
-                   <img alt={this.props.description} src={this.props.img}/>
+                   <img alt={this.props.description} src={this.props.img}></img>
                    <Card.Text>
                         {this.props.description}
                    </Card.Text>

@@ -4,13 +4,45 @@
   "description": "An animated and interactive portfolio coded with Unity in C#.",
   "deployedURL": "https://chadfromspace.github.io/InteractivePortfolio",
   "repositoryURL": "https://github.com/chadfromspace/InteractivePortfolio",
-  "img": "img1"
+  "img": "../../assets/img/interactiveportfolio.png"
 },
 {
-  "id": "1",
-  "name": "Project",
-  "description": "ProjectDescription",
-  "deployedURL": "ProjectURL",
-  "repositoryURL": "RepositoryURL",
-  "img": "/path/"
+  "id": "2",
+  "name": "This React Portfolio",
+  "description": "My Portfolio Page",
+  "deployedURL": "https://chadfromspace.github.io/Portfolio",
+  "repositoryURL": "https://github.com/chadfromspace/Portfolio",
+  "img": "../../assets/img/aboutme.png"
+},
+{
+  "id": "3",
+  "name": "Space Cat",
+  "description": "A game coded with Unity in C# where you must defend your planet from alien astronaut rats. Uses Up, Left, and Right arrow keys.",
+  "deployedURL": "https://chadfromspace.github.io/Module7",
+  "repositoryURL": "https://github.com/chadfromspace/Module7",
+  "img": "../../assets/img/game.png"
+},
+{
+  "id": "4",
+  "name": "Kanye West Quote Generator",
+  "description": "A website that uses the Kanye West Quote Generator API in combination with the NASA API to display random quotes from Kanye West over high definition images from NASA.",
+  "deployedURL": "https://chadfromspace.github.io/othersite",
+  "repositoryURL": "https://github.com/chadfromspace/othersite",
+  "img": "../../assets/img/kanye.png"
+},
+{
+"id": "5",
+"name": "BruHub",
+"description": "A local craft brewery suggestion site that combines 3 API's to randomly produce jokes and memes, as well.",
+"deployedURL": "https://chadfromspace.github.io/BruHub",
+"repositoryURL": "https://github.com/chadfromspace/BruHub",
+"img": "../../assets/img/bruhub.png"
+},
+{
+"id": "6",
+"name": "Flex City",
+"description": "A workout management application built with Node, Express, Sequelize/MySQL, and Materialize.",
+"deployedURL": "https://flexcity.herokuapp.com/",
+"repositoryURL": "https://github.com/chadfromspace/FlexCity",
+"img": "../../assets/img/flexcity.png"
 }]
