@@ -1,6 +1,7 @@
 .aboutMe{
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .App {
@@ -54,15 +55,20 @@ Card{
     justify-content: center;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+}
+
 html, body{
     height: 100vh;
     background-color: black;
     color: white;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
 }
 
 .navbar{
