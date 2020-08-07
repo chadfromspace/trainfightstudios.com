@@ -87,6 +87,7 @@ html, body{
 p{
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .page{
