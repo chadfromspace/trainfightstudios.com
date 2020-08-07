@@ -4,7 +4,7 @@
   "description": "An animated and interactive portfolio coded with Unity in C#.",
   "deployedURL": "https://chadfromspace.github.io/InteractivePortfolio",
   "repositoryURL": "https://github.com/chadfromspace/InteractivePortfolio",
-  "img": "./assets/img/interactiveportfolio.png"
+  "img": "img1"
 },
 {
   "id": "1",

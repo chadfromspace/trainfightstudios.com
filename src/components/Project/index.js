@@ -2,9 +2,14 @@ import React, { Component } from "react";
 import "./style.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import img1 from "../../assets/img/aboutme.png";
+import img2 from "../../assets/img/aboutme.png";
 
 class Project extends Component {
-  state = {};
+  state = {
+    img1,
+    img2
+  };
 
   render() {
     return (

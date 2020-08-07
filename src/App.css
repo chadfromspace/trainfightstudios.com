@@ -48,6 +48,7 @@ Card{
     display: flex;
     justify-content: center;
     width: 70vw;
+    color: black;
 }
 
 .content{
@@ -56,6 +57,7 @@ Card{
 }
 
 footer{
+    color: white;
     display: flex;
     justify-content: center;
 }
@@ -68,7 +70,6 @@ h5{
 html, body{
     height: 100vh;
     background-color: black;
-    color: white;
 }
 
 .navbar{
