@@ -49,6 +49,11 @@ Card{
     width: 70vw;
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+}
+
 html, body{
     height: 100vh;
     background-color: black;
@@ -63,6 +68,11 @@ footer{
 .navbar{
     display: flex;
     justify-content: flex-end;
+}
+
+p{
+    display: flex;
+    justify-content: center;
 }
 
 .page{
