@@ -51,15 +51,19 @@ Card{
     color: black;
 }
 
+.card-body{
+    background-color: #dbdbdb;
+}
+
 .content{
     display: flex;
     justify-content: center;
 }
 
-footer{
-    color: white;
+h1{
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 h2{
@@ -87,7 +91,7 @@ html, body{
 p{
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
 }
 
 .page{

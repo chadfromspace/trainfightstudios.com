@@ -17,9 +17,9 @@ function App() {
         <Navbar />
         <div className="page">
             <Switch>
-              <Route path="/projects" component={Projects}/>
+              <Route path="/about" component={About}/>
               <Route path="/contact" component={Contact}/>
-              <Route path="/*" component={About}/>
+              <Route path="/*" component={Projects}/>
             </Switch>
         </div>
         <Footer />

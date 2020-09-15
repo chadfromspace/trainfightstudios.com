@@ -10,7 +10,7 @@ class Navbar extends Component {
       <div>
           <nav className="navbar links">
               <h4 className="mr-4">
-                <Link to="/">About</Link>
+                <Link to="/about">About</Link>
               </h4>
               <h4 className="mr-4">
                 <Link to="/projects">Projects</Link>
