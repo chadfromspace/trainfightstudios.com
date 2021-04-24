@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -17,7 +16,6 @@ function App() {
         <Navbar />
         <div className="page">
             <Switch>
-              <Route path="/about" component={About}/>
               <Route path="/contact" component={Contact}/>
               <Route path="/*" component={Projects}/>
             </Switch>

@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import "./style.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import img1 from "../../assets/img/aboutme.png";
-import img2 from "../../assets/img/aboutme.png";
 
 class Project extends Component {
-  state = {
-    img1,
-    img2
-  };
+    constructor(props){
+        super(props);
+        this.state = {
+        }
+    };
 
   render() {
     return (
@@ -23,10 +22,7 @@ class Project extends Component {
                     {this.props.description}
                </Card.Text>
                <a href={this.props.deployedURL}>
-                    <Button className="mr-2" variant="primary">Website</Button>
-               </a>
-               <a href={this.props.repositoryURL}>
-                    <Button variant="primary">Github Repository</Button>
+                    <Button className="mr-2" variant="primary">{this.props.linkText}</Button>
                </a>
             </Card.Body>
           </Card>

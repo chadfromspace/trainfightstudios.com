@@ -2,22 +2,22 @@ import React, { Component } from "react";
 import "./style.css";
 import Project from "../Project";
 import db from "./db.json";
+import spacetime from "../../assets/img/spacetime.png";
 import interactiveportfolio from "../../assets/img/interactiveportfolio.png";
-import aboutme from "../../assets/img/aboutme.png";
 import game from "../../assets/img/game.png";
-import bruhub from "../../assets/img/bruHub.png";
-import flexcity from "../../assets/img/flexCity.png";
 
 class Projects extends Component {
-  state = {
-   projects: db,
-   images: [interactiveportfolio,
-   aboutme,
-   game,
-   bruhub,
-   flexcity
-   ]
-   };
+    constructor(props){
+        super(props);
+        this.state = {
+                projects: db,
+                images: [
+                spacetime,
+                interactiveportfolio,
+                game
+                ]
+        };
+    }
 
   render() {
     return (
@@ -28,7 +28,7 @@ class Projects extends Component {
           name={a.name}
           description={a.description}
           deployedURL={a.deployedURL}
-          repositoryURL={a.repositoryURL}
+          linkText={a.linkText}
           img={this.state.images[index]}/>
          ))}
       </div>

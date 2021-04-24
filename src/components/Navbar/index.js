@@ -3,15 +3,11 @@ import "./style.css";
 import {Link} from "react-router-dom";
 
 class Navbar extends Component {
-  state = {};
 
   render() {
     return (
       <div>
           <nav className="navbar links">
-              <h4 className="mr-4">
-                <Link to="/about">About</Link>
-              </h4>
               <h4 className="mr-4">
                 <Link to="/projects">Projects</Link>
               </h4>
