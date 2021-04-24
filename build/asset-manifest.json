@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c73bb585.chunk.css",
+    "main.js": "/Portfolio/static/js/main.0dfd83a3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0dfd83a3.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.f73464aa.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f73464aa.js.map",
+    "static/js/2.5e9271d2.chunk.js": "/Portfolio/static/js/2.5e9271d2.chunk.js",
+    "static/js/2.5e9271d2.chunk.js.map": "/Portfolio/static/js/2.5e9271d2.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.cf0f21f2534a27454663bdecbc19083f.js": "/Portfolio/precache-manifest.cf0f21f2534a27454663bdecbc19083f.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.c73bb585.chunk.css.map": "/Portfolio/static/css/main.c73bb585.chunk.css.map",
+    "static/js/2.5e9271d2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5e9271d2.chunk.js.LICENSE.txt",
+    "static/media/game.png": "/Portfolio/static/media/game.7729fad2.png",
+    "static/media/interactiveportfolio.png": "/Portfolio/static/media/interactiveportfolio.75bc1d1a.png",
+    "static/media/spacetime.png": "/Portfolio/static/media/spacetime.80290cc6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f73464aa.js",
+    "static/js/2.5e9271d2.chunk.js",
+    "static/css/main.c73bb585.chunk.css",
+    "static/js/main.0dfd83a3.chunk.js"
+  ]
+}
