@@ -1,19 +1,19 @@
 [{
   "id": "1",
-  "name": "Spacetime",
-  "description": "A mobile game for Android available in the Google Play Store.",
-  "deployedURL": "https://play.google.com/store/apps/details?id=com.TrainfightStudios.Spacetime",
-  "linkText": "Google Play Store Link"
+  "name": "Desert Drivin' with The Buzzards of Fuzz",
+  "description": "A classic arcade game for Android and iOS. Available in The Google Play Store and The Apple App Store.",
+  "URL1": "https://play.google.com/store/apps/details?id=com.TrainfightStudios.DesertDrivin",
+  "URL2": "https://apps.apple.com/us/app/desert-drivin/id1582325388"
 },{
   "id": "2",
-  "name": "Interactive Portfolio",
-  "description": "An animated and interactive portfolio coded with Unity in C#.",
-  "deployedURL": "https://chadfromspace.github.io/InteractivePortfolio",
-  "linkText": "Web Link (PC Only)"
+  "name": "Spacetime",
+  "description": "A classic arcade game for Android and iOS. Available in The Google Play Store and The Apple Appe Store.",
+  "URL1": "https://play.google.com/store/apps/details?id=com.TrainfightStudios.Spacetime",
+  "URL2": "https://apps.apple.com/us/app/trainfight-studios-spacetime/id1578116409"
 },{
   "id": "3",
-  "name": "Space Cat",
-  "description": "A game coded with Unity in C#. Uses Up, Left, and Right arrow keys.",
-  "deployedURL": "https://chadfromspace.github.io/Module7",
-  "linkText": "Web Link (PC Only)"
+  "name": "Interactive Portfolio",
+  "description": "An animated and interactive portfolio coded with Unity in C#.",
+  "URL1": "https://play.google.com/store/apps/developer?id=Trainfight+Studios",
+  "URL2": "https://apps.apple.com/us/developer/chad-dubay/id1578116411"
 }]

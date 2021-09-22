@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./style.css";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import androidLogo from "../../assets/img/AndroidLogo.png";
+import iOSLogo from "../../assets/img/iOSLogo.png";
 
 class Project extends Component {
     constructor(props){
@@ -12,17 +13,26 @@ class Project extends Component {
 
   render() {
     return (
-      <div className="row content">
-        <div className="col-6 mt-2 mb-2">
+      <div className="row">
+        <div className="col mr-1 ml-1 mt-1 mb-4">
           <Card className="text-center projectCard" key={this.props.id}>
-            <Card.Header><h3>{this.props.name}</h3></Card.Header>
             <Card.Body>
                <img alt={this.props.description} src={this.props.img}></img>
-               <Card.Text>
-                    {this.props.description}
-               </Card.Text>
-               <a href={this.props.deployedURL}>
-                    <Button className="mr-2" variant="primary">{this.props.linkText}</Button>
+               <a href={this.props.URL1}>
+                    <img
+                        alt={this.props.description}
+                        src={androidLogo}
+                        className="androidIcon col-6 mt-4 mr-4"
+                        variant="primary">
+                    </img>
+               </a>
+               <a href={this.props.URL2}>
+                    <img
+                        alt={this.props.description}
+                        src={iOSLogo}
+                        className="iOSIcon col-6 mt-4 ml-4"
+                        variant="primary">
+                    </img>
                </a>
             </Card.Body>
           </Card>

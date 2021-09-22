@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "./style.css";
 import Project from "../Project";
 import db from "./db.json";
-import spacetime from "../../assets/img/spacetime.png";
-import interactiveportfolio from "../../assets/img/interactiveportfolio.png";
-import game from "../../assets/img/game.png";
+import spacetime from "../../assets/img/SpacetimeVideoGame.png";
+import portfolio from "../../assets/img/Portfolio.gif";
+import tbof from "../../assets/img/tbof.png";
 
 class Projects extends Component {
     constructor(props){
@@ -12,9 +12,9 @@ class Projects extends Component {
         this.state = {
                 projects: db,
                 images: [
+                tbof,
                 spacetime,
-                interactiveportfolio,
-                game
+                portfolio
                 ]
         };
     }
@@ -22,13 +22,12 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <h1>Projects</h1>
         {this.state.projects.map((a,index)=>(
           <Project key={index}
           name={a.name}
           description={a.description}
-          deployedURL={a.deployedURL}
-          linkText={a.linkText}
+          URL1={a.URL1}
+          URL2={a.URL2}
           img={this.state.images[index]}/>
          ))}
       </div>

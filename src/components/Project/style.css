@@ -4,7 +4,12 @@
 
 .form input {
   display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 100%;
+}
+
+.androidIcon{
+    width: 100px;
+}
+
+.iOSIcon{
+    width: 70px;
 }

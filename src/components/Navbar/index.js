@@ -1,19 +1,14 @@
 import React, { Component } from "react";
 import "./style.css";
-import {Link} from "react-router-dom";
+import trainfightStudios from "../../assets/img/TrainfightStudiosLogo.png";
 
 class Navbar extends Component {
 
   render() {
     return (
       <div>
-          <nav className="navbar links">
-              <h4 className="mr-4">
-                <Link to="/projects">Projects</Link>
-              </h4>
-              <h4>
-                <Link to="/contact">Contact</Link>
-              </h4>
+          <nav className="navbar">
+            <img alt="Trainfight Studios Logo" className="headerImage mt-4 mb-2" src={trainfightStudios}/>
           </nav>
       </div>
     );
