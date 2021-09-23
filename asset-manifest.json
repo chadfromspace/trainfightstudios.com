@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.021ce75e.chunk.css",
-    "main.js": "/Portfolio/static/js/main.b61fd287.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.b61fd287.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.f73464aa.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f73464aa.js.map",
-    "static/js/2.dbaba28e.chunk.js": "/Portfolio/static/js/2.dbaba28e.chunk.js",
-    "static/js/2.dbaba28e.chunk.js.map": "/Portfolio/static/js/2.dbaba28e.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.d93246bc9c2da0bae1bbbeded4375610.js": "/Portfolio/precache-manifest.d93246bc9c2da0bae1bbbeded4375610.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.021ce75e.chunk.css.map": "/Portfolio/static/css/main.021ce75e.chunk.css.map",
-    "static/js/2.dbaba28e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.dbaba28e.chunk.js.LICENSE.txt",
-    "static/media/Portfolio.gif": "/Portfolio/static/media/Portfolio.3b800f04.gif",
-    "static/media/SpacetimeVideoGame.png": "/Portfolio/static/media/SpacetimeVideoGame.b7de0e48.png",
-    "static/media/TrainfightStudiosLogo.png": "/Portfolio/static/media/TrainfightStudiosLogo.57c6ba40.png",
-    "static/media/tbof.png": "/Portfolio/static/media/tbof.43376d70.png"
+    "main.css": "/static/css/main.021ce75e.chunk.css",
+    "main.js": "/static/js/main.85183d93.chunk.js",
+    "main.js.map": "/static/js/main.85183d93.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4e7c19c6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4e7c19c6.js.map",
+    "static/js/2.dbaba28e.chunk.js": "/static/js/2.dbaba28e.chunk.js",
+    "static/js/2.dbaba28e.chunk.js.map": "/static/js/2.dbaba28e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d70cefd072adcd9768547f0b8604ca21.js": "/precache-manifest.d70cefd072adcd9768547f0b8604ca21.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.021ce75e.chunk.css.map": "/static/css/main.021ce75e.chunk.css.map",
+    "static/js/2.dbaba28e.chunk.js.LICENSE.txt": "/static/js/2.dbaba28e.chunk.js.LICENSE.txt",
+    "static/media/Portfolio.gif": "/static/media/Portfolio.3b800f04.gif",
+    "static/media/SpacetimeVideoGame.png": "/static/media/SpacetimeVideoGame.b7de0e48.png",
+    "static/media/TrainfightStudiosLogo.png": "/static/media/TrainfightStudiosLogo.57c6ba40.png",
+    "static/media/tbof.png": "/static/media/tbof.43376d70.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f73464aa.js",
+    "static/js/runtime-main.4e7c19c6.js",
     "static/js/2.dbaba28e.chunk.js",
     "static/css/main.021ce75e.chunk.css",
-    "static/js/main.b61fd287.chunk.js"
+    "static/js/main.85183d93.chunk.js"
   ]
 }
